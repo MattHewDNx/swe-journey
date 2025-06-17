@@ -21,3 +21,15 @@ console.log("Skills after adding CSS:", skills);
 // The .length property tells you how many items are in the array.
 const numberOfSkills = skills.length;
 console.log("Total number of skills:", numberOfSkills);
+
+console.log("--- My Skills ---");
+
+// Loop through each skill in the array and print it.
+for (let i = 0; i < skills.length; i++) {
+  // Inside the loop, 'i' will be 0, then 1, then 2, etc.
+  // We use skills[i] to access the element at the current index.
+  const currentSkill = skills[i];
+  console.log("I am skilled in:", currentSkill);
+}
+
+console.log("Loop finished!");
