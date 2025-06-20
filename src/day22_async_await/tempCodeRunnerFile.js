@@ -1,0 +1,1 @@
+eout(() => resolve([`Post 1 for user ${userId}`, `Post 2`]), 1000));
